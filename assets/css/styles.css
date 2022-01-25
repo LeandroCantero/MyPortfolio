@@ -141,28 +141,6 @@ img {
 
 
 /*==================== REUSABLE CSS CLASSES ====================*/
-
-#status.succes{
-    background-color: var(--first-color);
-    margin: 30px auto;
-}
-
-#status.error{
-    background-color:red;
-    color: white;
-}
-
-#status{
-    font-size: 25px;
-    width: 50%;
-    max-width: 300px;
-    text-align: center;
-    border-radius: 8px;
-    
-}
-
-
-
 .section {
     padding: 2rem 0 4rem;
 }
