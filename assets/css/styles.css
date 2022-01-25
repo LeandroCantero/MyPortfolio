@@ -421,6 +421,12 @@ img {
     align-items: center;
 }
 
+.button--send{
+    border: none;
+    font-weight: var(--font-semi-bold);
+    font-size: var(--font-medium);
+    padding: 1rem;
+}
 
 /*==================== ABOUT ====================*/
 
