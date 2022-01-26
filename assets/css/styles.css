@@ -192,11 +192,19 @@ img {
 /*==================== NAV ====================*/
 
 .nav {
-    max-width: 968px;
     height: var(--header-height);
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: auto 30px;
+}
+
+.nav__logo{
+    margin-left: 25px;
+}
+
+.nav__toggle {
+    margin-right: 25px;
 }
 
 .nav__logo,
@@ -1089,17 +1097,18 @@ img {
         padding: 0;
     }
     .nav__menu{
-        margin-left: 40%;
+        margin-left: auto;
     }
     .nav__logo{
         font-size: 30px;
-        padding-left: 40%;
     }
     .home__blob{
         width: 320px;
     }
     .home__social{
         transform: translateX(-8rem);
+        margin-left: 100px;
+        margin-right: -100px;
     }
     .services__container{
         grid-template-columns: repeat(3, 238px);
